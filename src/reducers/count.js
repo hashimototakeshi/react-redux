@@ -2,6 +2,10 @@ import { INCREMENT, DECREMENT } from '../actions'
 
 const initialState = { value: 0 }
 
+/**
+ * 新しい仕組み
+ */
+
 export default (state = initialState, action) => {
   switch (action.type) {
     case INCREMENT:
